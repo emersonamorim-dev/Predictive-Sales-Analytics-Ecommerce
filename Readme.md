@@ -57,7 +57,7 @@ pip install apache-airflow
 # Inicializar o banco de dados do Airflow
 airflow db init
 
-# Criar um usuário admin para acessar a interface web do Airflow
+## Criar um usuário admin para acessar a interface web do Airflow
 airflow users create \
     --username admin \
     --password admin \
@@ -66,13 +66,13 @@ airflow users create \
     --role Admin \
     --email admin@example.com
     
-# Iniciar o webserver do Airflow
+## Iniciar o webserver do Airflow
 airflow webserver -p 8080
 
-# Em um novo terminal, iniciar o scheduler do Airflow
+## Em um novo terminal, iniciar o scheduler do Airflow
 airflow scheduler
 
-# Instalar Apache Spark
+## Instalar Apache Spark
 pip install pyspark
 
 
@@ -88,11 +88,11 @@ sudo service postgresql start
 - Crie um banco de dados chamado sales_data:
 sudo -u postgres createdb sales_data
 
-# Para executar a aplicação web:
+## Para executar a aplicação web:
 Instale as dependências necessárias (assumindo que você tenha um requirements.txt):
 pip install -r requirements.txt
 
-# Execute a aplicação:
+## Execute a aplicação:
 python main.py
 
 
