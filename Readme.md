@@ -1,6 +1,6 @@
 # Predictive Sales Analytics for E-commerce 🛍️📈
 
-Codificação em Python para uma solução de Análise Preditiva para Vendas de E-commerce. Ele utiliza Apache Airflow para orquestração, Apache Spark para processamento de dados e uma aplicação web para visualização.
+Codificação em Python para uma solução de Análise Preditiva para Vendas de E-commerce. Ele utiliza Apache Airflow para orquestração, Apache Spark para processamento de dados e uma aplicação web para visualização. 
 
 ### Docker 🐳
 
