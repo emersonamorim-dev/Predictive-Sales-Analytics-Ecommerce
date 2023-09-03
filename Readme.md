@@ -25,13 +25,13 @@ PostgreSQL é o banco de dados escolhido para armazenar metadados do Airflow e, 
 ## Instalação 🚀
 
 1. **Clone o repositório**:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/your-github-username/Predictive-Sales-Analytics-Ecommerce.git
    cd Predictive-Sales-Analytics-Ecommerce
-   \`\`\`
+   ```
 
 2. **Construa as imagens Docker**:
-   ```bash
+   ```
    docker-compose build
    ```
 
