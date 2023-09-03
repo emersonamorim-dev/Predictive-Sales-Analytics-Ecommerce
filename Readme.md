@@ -51,10 +51,10 @@ PostgreSQL é o banco de dados escolhido para armazenar metadados do Airflow e, 
 
 3. Inicie a aplicação de forma local com os seguintes comandos:
 
-# Instalar o Apache Airflow
+## Instalar o Apache Airflow
 pip install apache-airflow
 
-# Inicializar o banco de dados do Airflow
+## Inicializar o banco de dados do Airflow
 airflow db init
 
 ## Criar um usuário admin para acessar a interface web do Airflow
