@@ -1,6 +1,3 @@
-#!/bin/bash
-
-cat <<EOL > README.md
 # Predictive Sales Analytics for E-commerce 🛍️📈
 
 Codificação para uma é uma solução de Análise Preditiva para Vendas de e-commerce. Ele utiliza Apache Airflow para orquestração, Apache Spark para processamento de dados e uma aplicação web para visualização.
