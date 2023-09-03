@@ -78,7 +78,9 @@ airflow webserver -p 8080
 ```
 
 ## Em um novo terminal, iniciar o scheduler do Airflow
+```
 airflow scheduler
+```
 
 ## Instalar Apache Spark
 ```
