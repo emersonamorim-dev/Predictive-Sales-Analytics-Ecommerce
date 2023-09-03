@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: airflow-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: airflow
+  template:
+    metadata:
+      labels:
+        app: airflow
+    spec:
+      containers:
+      - name: airflow
+        image: my-airflow-repo/airflow:latest
+        ports:
+        - containerPort: 8081
+        env:
+        - name: AIRFLOW__CORE__EXECUTOR
+          value: CeleryExecutor
+        - name: AIRFLOW__CORE__SQL_ALCHEMY_CONN
+          value: your_database_connection_string
+        # Adicione outras variáveis de ambiente conforme necessário

@@ -1,0 +1,8 @@
+date,product,units_sold,price_per_unit,total_sales
+2023-01-01,smartphone,120,500,60000
+2023-01-01,laptop,45,1000,45000
+2023-01-01,headphone,200,50,10000
+2023-01-02,smartphone,130,500,65000
+2023-01-02,laptop,44,1000,44000
+2023-01-02,headphone,195,50,9750
+

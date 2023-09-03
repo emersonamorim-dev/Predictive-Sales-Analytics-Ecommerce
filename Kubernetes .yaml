@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: predictive-sales-analytics-ecommerce
+spec:
+  containers:
+  - name: predictive-sales-analytics-ecommerce
+    image: predictive-sales-analytics-ecommerce:latest
+    ports:
+    - containerPort: 8050
