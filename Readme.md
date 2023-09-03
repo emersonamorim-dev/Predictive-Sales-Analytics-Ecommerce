@@ -31,9 +31,9 @@ PostgreSQL é o banco de dados escolhido para armazenar metadados do Airflow e, 
    \`\`\`
 
 2. **Construa as imagens Docker**:
-   \`\`\`bash
+   ```bash
    docker-compose build
-   \`\`\`
+   ```
 
 3. **Instale as dependências Python** (se estiver executando localmente sem Docker):
    \`\`\`bash
