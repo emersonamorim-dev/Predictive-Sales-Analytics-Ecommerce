@@ -138,18 +138,19 @@ Emerson->>Emerson: I am good thanks!
 ```
 
 ```
-echo 'Teobromina (C7H8N4O2)      Cafeína (C8H10N4O2)      Ácido esteárico (C18H36O2)      Ácido oleico (C18H34O2)      Sacarose (C12H22O11)      Feniletilamina (C8H11N)'
-echo ' N-C-N                     N-C-N                     CH3-(CH2)16-COOH               CH3-(CH2)7-CH=CH-(CH2)7-COOH O       O                   NH2'
-echo ' |   |                     |   |                                                  |       |                   |       |                    |'
-echo ' C   C                     C   C                                                  C       C                   C       C                    |'
-echo ' |   |                     |   |                                                  |       |                   O-C-C-O-C                    |'
-echo ' N   O                     N   O                                                  O       O                       |   |                    C'
-echo ' |   |                     |   |                                                                              C   C                    / \\'
-echo ' C   C                     C   C                                                                              |   |                   C   C'
-echo ' |   |                     |   |                                                                              O   O                   |   |'
-echo ' C   O                     C   O                                                                                                      C   C'
-echo '                           |   |                                                                                                      \\ /'
-echo '                           CH3                                                                                                         C'
+## Fórmula dos elementos químicos do Chocolate
+'Teobromina (C7H8N4O2)      Cafeína (C8H10N4O2)      Ácido esteárico (C18H36O2)      Ácido oleico (C18H34O2)      Sacarose (C12H22O11)      Feniletilamina (C8H11N)'
+' N-C-N                     N-C-N                     CH3-(CH2)16-COOH               CH3-(CH2)7-CH=CH-(CH2)7-COOH O       O                   NH2'
+' |   |                     |   |                                                  |       |                   |       |                    |'
+' C   C                     C   C                                                  C       C                   C       C                    |'
+' |   |                     |   |                                                  |       |                   O-C-C-O-C                    |'
+' N   O                     N   O                                                  O       O                       |   |                    C'
+' |   |                     |   |                                                                              C   C                    / \\'
+' C   C                     C   C                                                                              |   |                   C   C'
+' |   |                     |   |                                                                              O   O                   |   |'
+' C   O                     C   O                                                                                                      C   C'
+'                           |   |                                                                                                      \\ /'
+'                           CH3                                                                                                         C'
 ```
 
 
