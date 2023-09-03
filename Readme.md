@@ -49,13 +49,13 @@ PostgreSQL é o banco de dados escolhido para armazenar metadados do Airflow e, 
 
 2. Acesse a aplicação web em \`http://localhost:8050\` e o Airflow em \`http://localhost:8081\`.
 
-3. Inicie a aplicação de forma local com os seguintes comandos:
+## Inicie a aplicação de forma local com os seguintes comandos:
 
-## Instalar o Apache Airflow
-pip install apache-airflow
+ - Instalar o Apache Airflow
+``` pip install apache-airflow ```
 
 ## Inicializar o banco de dados do Airflow
-airflow db init
+``` airflow db init ```
 
 ## Criar um usuário admin para acessar a interface web do Airflow
 airflow users create \
